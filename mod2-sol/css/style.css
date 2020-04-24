@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 300%;
     text-align: center;
@@ -8,11 +9,10 @@ h1 {
     color: rgb(255, 0, 0);
     
 }
+
 section.food{
-    height: fit-content;
     border: 1px solid;
-    float: left;
-    margin: 1%;
+    margin: 10px;
 
 }
 .section-title {
@@ -27,31 +27,35 @@ section.food{
 
 }
 p{
-    width: 90%;
-    height: 90%;
     clear: both;
     margin: 30px 10px 10px 20px;
     font-family: verdana ;
 }
+div>div{
+    float: left;
+}
 
 @media (min-width: 992px){
     .col-lg {
-        width: 31.33%;
+        width: 33.33%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
  
     .col-md-2 {
-        width: 48%;
+        width: 50%;
     }
     .col-md-1 {
-        width: 98%;
+        width: 100%;
     }
 }
 @media (max-width: 767px){
     .col-sm {
-        width: 98%;
+        width: 100%;
     }
+
+
+    ----/// colors ///---
 }
 #chicken{
     background-color: rgb(139, 139, 224);

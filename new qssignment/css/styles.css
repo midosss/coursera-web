@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(247, 206, 206);
+}
+.navbar {
+  border: 0ch;
+  height: 52px;
+  background-color: rgb(150, 151, 151);
+}
+
+.navbar-brand a h1 {
+  color: black;
+  margin-top: -10px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#nav-list {
+  background-color: rgb(255, 178, 89);
+  margin-top: 0px;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+  cursor: cell;
+}
+
+.container>.text-center>h1 {
+
+  margin: 20px;
+  font-size: 3em;
+  font-family: fantasy;
+}
+
+#collapsable-nav a  {
+  font-size: 1.3em;
+  border-bottom: rgb(248, 208, 194) solid;
+}
+
+#home-tiles>div>section {
+  background-color: rgb(230, 187, 78);
+  border: solid ;
+  border-radius: 15px;
+  margin-top: 20px;
+  position: relative;
+  padding: 10px;
+}
+
+#home-tiles>div>section .section-title {
+  text-align: center;  
+  margin: -8px 0 5px 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: monospace;
+
+}

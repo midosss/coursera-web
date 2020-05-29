@@ -55,3 +55,8 @@ body {
   font-family: monospace;
 
 }
+
+#collapsable-nav, #nav-list {
+  height: auto;
+  display: block !important ;
+     }
